@@ -37,7 +37,7 @@ const ContactForm = () => (
 					url:
 						process.env.NODE_ENV !== "development"
 							? `${url}/api/contact`
-							: "http://localhost:8000/api/contact",
+							: "http://localhost:3000/api/contact",
 					headers: {
 						"Content-Type": "application/json",
 					},
@@ -53,12 +53,13 @@ const ContactForm = () => (
 			} catch (err) {
 				setSubmitting(false);
 				setFieldValue("success", false);
-				alert("Something went wrong, please try again!");
+				alert(err);
 			}
 		}}
 	>
 		{({ values, touched, errors, setFieldValue, isSubmitting }) => (
 			<Form>
+				<h1>Contact</h1>
 				<InputField>
 					<Input
 						as={FastField}
