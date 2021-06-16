@@ -1,8 +1,8 @@
 module.exports = {
   defaultTitle: 'Mike Smith - Web Developer',
-  logo: 'https://portfolio.smakosh.com/favicon/favicon-512.png',
+
   author: 'Mike Smith',
-  url: 'https://sourcefolio.vercel.app',
+  url: 'https://sourcewebdev.co.uk',
   legalName: 'Mike Smith',
   defaultDescription: 'I’m Mike and I’m a javascript developer',
   socialLinks: {
