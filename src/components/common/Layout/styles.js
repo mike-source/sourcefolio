@@ -38,6 +38,7 @@ export const Global = createGlobalStyle`
       display: none;
     }
     a {
+      color: #6c63ff;
       background-color: transparent;
       -webkit-text-decoration-skip: objects;
     }
