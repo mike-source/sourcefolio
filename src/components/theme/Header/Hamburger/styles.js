@@ -12,22 +12,6 @@ export const Wrapper = styled.div`
   @media (max-width: 960px) {
     display: block;
   }
-
-  ${({ sidebar }) =>
-    sidebar &&
-    `
-			right: 18%;
-			top: 1.4rem;
-		
-			@media (max-width: 960px) {
-				right: 35%;
-				position: fixed;
-			}
-		
-			@media (max-width: 600px) {
-				right: 66%;
-			}
-	`}
 `;
 
 export const Bar = styled.div`
