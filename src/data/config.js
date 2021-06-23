@@ -1,6 +1,6 @@
 module.exports = {
   defaultTitle: 'Mike Smith - Web Developer',
-
+  logo: 'https://avatars.githubusercontent.com/u/6898265?v=4',
   author: 'Mike Smith',
   url: 'https://sourcewebdev.co.uk',
   legalName: 'Mike Smith',
