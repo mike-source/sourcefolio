@@ -3,8 +3,11 @@ import { createGlobalStyle } from 'styled-components';
 export const Global = createGlobalStyle`
   html {
     font-family: 'Roboto', Helvetica, sans-serif;
+    box-sizing: border-box;
+    overflow-y: scroll;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
+    line-height: 1.4;
 
     article,
     aside,
@@ -221,7 +224,6 @@ export const Global = createGlobalStyle`
       font-weight: bold;
       text-rendering: optimizeLegibility;
       font-size: 2.25rem;
-      line-height: 1.1;
     }
     h2 {
       margin-left: 0;
@@ -236,7 +238,6 @@ export const Global = createGlobalStyle`
       font-weight: bold;
       text-rendering: optimizeLegibility;
       font-size: 1.62671rem;
-      line-height: 1.1;
     }
     h3 {
       margin-left: 0;
@@ -251,7 +252,6 @@ export const Global = createGlobalStyle`
       font-weight: bold;
       text-rendering: optimizeLegibility;
       font-size: 1.38316rem;
-      line-height: 1.1;
     }
     h4 {
       margin-left: 0;
@@ -266,7 +266,6 @@ export const Global = createGlobalStyle`
       font-weight: bold;
       text-rendering: optimizeLegibility;
       font-size: 1rem;
-      line-height: 1.1;
     }
     h5 {
       margin-left: 0;
@@ -281,7 +280,6 @@ export const Global = createGlobalStyle`
       font-weight: bold;
       text-rendering: optimizeLegibility;
       font-size: 0.85028rem;
-      line-height: 1.1;
     }
     h6 {
       margin-left: 0;
@@ -296,7 +294,6 @@ export const Global = createGlobalStyle`
       font-weight: bold;
       text-rendering: optimizeLegibility;
       font-size: 0.78405rem;
-      line-height: 1.1;
     }
     hgroup {
       margin-left: 0;
