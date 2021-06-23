@@ -11,7 +11,7 @@ export const Skills = () => {
       <Details theme={theme}>
         <h1>More about me</h1>
         <p>
-          If you're reading this it's probably because you've seen the domain in my email and decided to be nosey. That's cool, that's exactly what I would do if I was thinking of hiring someone. I'm a (mostly) front end web developer who likes to use JavaScript wherever possible. I put this together using a <a href="https://www.gatsbyjs.com/" rel="noopener noreferrer">Gatsby.js</a> starter and <a href="https://vercel.com/" rel="noopener noreferrer">Vercel</a>.
+          If you're reading this it's probably because you've seen the domain in my email and decided to be nosey. That's cool, that's exactly what I would do if I was thinking of hiring someone. I'm a (mostly) front end web developer who likes to use JavaScript wherever possible. I put this together using a <a href="https://www.gatsbyjs.com/" rel="noopener noreferrer">Gatsby.js</a> starter and <a href="https://vercel.com/" rel="noopener noreferrer">Vercel</a>. I was sort of using it to learn about Gatsby, but in the process I've discovered that some Gatsby/React devs really don't seem to know how to write basic CSS... <br /><br />Please don't judge me on the styling! (I'm gradually correcting things).
         </p>
         <p>For the last few years I've mostly been working for a fantastic Manchester web development agency called <a href="https://www.unbrandedmanchester.com/" rel="noopener noreferrer">Unbranded</a> based in MediaCity, here's <a href="https://www.unbrandedmanchester.com/research-projects/layout-composer/" rel="noopener noreferrer">an article I wrote</a> for their website.</p>
 
